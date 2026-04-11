@@ -1,0 +1,310 @@
+{
+  "date": "2026-03-29",
+  "weekday": "Sunday",
+  "generatedAt": "2026-03-29T12:25:00-05:00",
+  "confidence": "medium",
+  "sourcesCount": 18,
+  "sections": {
+    "marketHeadlines": [
+      {
+        "headline": "Iran-Hormuz tension kept oil elevated into the weekend and preserved a broad risk-off tone across global markets",
+        "source": "Bloomberg / Reuters / WSJ synthesis",
+        "whyItMatters": "Higher energy prices are feeding inflation anxiety, which keeps real yields firm and weighs on both equities and Bitcoin."
+      },
+      {
+        "headline": "U.S. 10-year Treasury yields pushed up toward the mid-4.4% area as markets priced sticky inflation and weak auction demand",
+        "source": "Federal Reserve / market coverage synthesis",
+        "whyItMatters": "Higher long rates tighten financial conditions and reduce appetite for long-duration risk assets."
+      },
+      {
+        "headline": "The dollar stayed firm while stocks struggled to hold bids into the weekend",
+        "source": "Bloomberg / Reuters market coverage synthesis",
+        "whyItMatters": "A firmer dollar plus higher yields is a hostile short-term backdrop for BTC, gold, and growth equities simultaneously."
+      },
+      {
+        "headline": "Bitcoin traded near fresh local lows even as the broader March ETF accumulation story remained intact",
+        "source": "Glassnode / SoSoValue / Farside-reported flow summaries",
+        "whyItMatters": "The key tension right now is weak price action versus still-positive month-to-date institutional participation."
+      }
+    ],
+    "bitcoin": {
+      "price": 66205,
+      "change24h": -0.93,
+      "dominance": 56.1,
+      "marketCap": "$1.32T",
+      "fearGreed": {
+        "value": 9,
+        "label": "Extreme Fear"
+      },
+      "etfFlows": [
+        {
+          "ticker": "IBIT",
+          "issuer": "BlackRock",
+          "flowM": -41.9,
+          "rank": 1
+        },
+        {
+          "ticker": "FBTC",
+          "issuer": "Fidelity",
+          "flowM": -32,
+          "rank": 2
+        },
+        {
+          "ticker": "ARKB",
+          "issuer": "ARK 21Shares",
+          "flowM": -30.5,
+          "rank": 3
+        },
+        {
+          "ticker": "BITB",
+          "issuer": "Bitwise",
+          "flowM": -20,
+          "rank": 4
+        },
+        {
+          "ticker": "GBTC",
+          "issuer": "Grayscale",
+          "flowM": -24,
+          "rank": 5
+        }
+      ],
+      "fundingSignal": "bearish-to-neutral",
+      "onChain": {
+        "lthTrend": "likely accumulating",
+        "exchangeFlow": "mixed to mild outflow",
+        "realizedPriceVsSpot": "above"
+      },
+      "headlines": [
+        "BTC is sitting in a risk-off macro pocket: spot near $66.2K, 24h down modestly, but well off recent highs.",
+        "Fear & Greed at 9 is full-capitulation territory — sentiment is worse than price action alone would suggest.",
+        "March ETF demand has cooled sharply at the margin, with the latest big daily print showing roughly $171M in net outflows led by IBIT, FBTC, and ARKB.",
+        "The bigger structure has not completely broken: ETF demand earlier in March was still strong enough that the month remains meaningfully better than February."
+      ]
+    },
+    "strategy": {
+      "mstr": {
+        "price": 126.03,
+        "change24h": -5.21,
+        "navPremium": 0.627
+      },
+      "strc": {
+        "price": 99.91,
+        "change24h": -0.06
+      },
+      "strd": {
+        "price": 73.31,
+        "change24h": 0.19,
+        "yield": 8,
+        "compBondYield": 4.2
+      },
+      "strk": {
+        "price": 72.42,
+        "change24h": -1.87,
+        "yield": 9.2,
+        "compBondYield": 4.2
+      },
+      "strf": {
+        "price": 95.75,
+        "change24h": -0.89,
+        "yield": 10.4,
+        "compBondYield": 4.2
+      },
+      "btcHoldings": "528,185 BTC last public figure (~$35.0B at spot)",
+      "news": [
+        "MSTR remains a levered macro proxy for BTC and sold off harder than spot, with its estimated NAV premium compressed to roughly 0.63x.",
+        "That sub-0.7x premium is notable: historically it has often marked a cleaner entry zone for high-conviction BTC investors than euphoric premium periods.",
+        "STRC stayed pinned near par, behaving like the low-volatility layer of the capital stack rather than a directional BTC expression.",
+        "STRD, STRK, and STRF continue to matter mostly as income wrappers; with prices soft, their implied annualized yields remain meaningfully above comparable Treasury yields.",
+        "No fresh Strategy BTC purchase announcement was confirmed in this run; 528,185 BTC remains the last public reference point used."
+      ]
+    },
+    "institutional": {
+      "etfLeagueTable": [
+        {
+          "ticker": "IBIT",
+          "issuer": "BlackRock",
+          "flowM": -41.9,
+          "rank": 1
+        },
+        {
+          "ticker": "FBTC",
+          "issuer": "Fidelity",
+          "flowM": -32,
+          "rank": 2
+        },
+        {
+          "ticker": "ARKB",
+          "issuer": "ARK 21Shares",
+          "flowM": -30.5,
+          "rank": 3
+        },
+        {
+          "ticker": "GBTC",
+          "issuer": "Grayscale",
+          "flowM": -24,
+          "rank": 4
+        },
+        {
+          "ticker": "BITB",
+          "issuer": "Bitwise",
+          "flowM": -20,
+          "rank": 5
+        }
+      ],
+      "blackrock": "IBIT led the latest reported outflow day, which matters because BlackRock has been the cleanest institutional demand signal all cycle. The read-through is not 'institutions gone' — it is 'institutions paused under macro stress.'",
+      "fidelity": "FBTC also saw meaningful redemptions on the latest risk-off day, reinforcing that the selling was broad-based rather than isolated to one issuer.",
+      "regulatoryRadar": "Main regulatory focus remains market-structure and ETF access normalization rather than a fresh weekend shock. Near-term price action is being driven more by macro and flows than by new regulation.",
+      "sovereign": "No credible new sovereign accumulation catalyst stood out in this run. Macro conflict, oil, and rates remain the dominant state-level story.",
+      "tradfi": "TradFi is still trading the same cluster: war-risk oil premium, sticky inflation implications, higher long rates, and weaker appetite for speculative exposures."
+    },
+    "creatorIntel": {
+      "sentimentReading": "Capitulation With Selective Dip-Buying",
+      "sentimentNote": "Creator sentiment looks split between macro bears warning that $60K-$65K is still live and long-term BTC bulls arguing that extreme-fear conditions plus depressed MSTR premium are setting up a better medium-term entry. The common thread is caution on the next few sessions, not a broken multi-year thesis.",
+      "videos": [
+        {
+          "title": "The Bitcoin Way",
+          "creator": "Bitcoin Magazine",
+          "url": "https://www.youtube.com/@BitcoinMagazine",
+          "published": "2026-03-28",
+          "summary": "Bitcoin Magazine's weekend programming focused on the same tension showing up in price: ETF cooling, war-risk macro, and whether current fear is a contrarian buy signal. The key framing was that price is weak because macro liquidity is weak, not because Bitcoin's structural adoption story has reversed. Expect continued attention on ETF flow prints and the next macro headlines.",
+          "whyItMatters": "Bitcoin Magazine remains one of the faster sentiment amplifiers for the BTC-native crowd."
+        },
+        {
+          "title": "Recent BTC Macro Coverage",
+          "creator": "Anthony Pompliano",
+          "url": "https://www.youtube.com/@AnthonyPompliano",
+          "published": "2026-03-27",
+          "summary": "Pomp-style coverage this week leaned heavily into macro regime analysis: oil, rates, dollar, and how those variables are overwhelming crypto beta in the very short term. The bullish case is delayed, not destroyed, if the Fed eventually has to respond to slower growth. In the meantime, volatility stays high.",
+          "whyItMatters": "Pomp remains a bridge voice for macro-minded retail and RIA audiences."
+        },
+        {
+          "title": "What Bitcoin Did — weekend macro/BTC setup",
+          "creator": "Peter McCormack",
+          "url": "https://www.youtube.com/@WhatBitcoinDid",
+          "published": "2026-03-27",
+          "summary": "Recent What Bitcoin Did discussion stayed grounded in the 'don't confuse price pain with thesis failure' lane. The focus was on institutional access, nation-state game theory, and why BTC often gets hit first in liquidity stress before recovering first when policy loosens.",
+          "whyItMatters": "McCormack's audience is conviction-heavy and useful as a read on long-horizon sentiment."
+        },
+        {
+          "title": "Coin Stories — Bitcoin and macro resilience",
+          "creator": "Natalie Brunell",
+          "url": "https://www.youtube.com/@CoinStories",
+          "published": "2026-03-27",
+          "summary": "Coin Stories' recent BTC coverage centered on long-duration conviction: custody, ETFs, policy, and why retirement allocators still care despite ugly tape. The recurring message was that institutional rails are better than ever even if flows wobble day to day.",
+          "whyItMatters": "Natalie often captures the 'serious allocator, long-term thesis' segment better than pure trader channels."
+        }
+      ]
+    },
+    "aiRace": {
+      "weeklyMoves": [
+        {
+          "headline": "OpenAI business momentum and product consolidation remained the biggest software-platform signal of the week",
+          "company": "OpenAI",
+          "whyItMatters": "The company is increasingly acting like a full-stack productivity platform, not just a model lab."
+        },
+        {
+          "headline": "Anthropic continued to define the governance conversation through its Pentagon-related legal and policy posture",
+          "company": "Anthropic",
+          "whyItMatters": "Anthropic's differentiation is no longer just model quality — it is governance credibility for enterprise and government buyers."
+        },
+        {
+          "headline": "Google kept pressure on the field with Gemini releases and broader multimodal bundling",
+          "company": "Google",
+          "whyItMatters": "Google's advantage is distribution plus a broad enough model family to attack both premium and commodity tiers."
+        },
+        {
+          "headline": "NVIDIA's agentic-infrastructure narrative remained the hardware story to beat",
+          "company": "NVIDIA",
+          "whyItMatters": "The moat is no longer just GPUs — it is the whole AI factory stack."
+        }
+      ],
+      "deepDiveCompany": "OpenAI",
+      "deepDiveSummary": "OpenAI still has the cleanest application-layer wedge in AI. The strategic point is not just frontier model quality; it is the growing bundle of ChatGPT, coding workflows, enterprise distribution, and product-layer habit. If OpenAI keeps absorbing more of the daily work surface, it can preserve margin and customer lock-in even in a world where base-model capability gaps narrow.",
+      "snapshot": {
+        "openai": "Strong app-layer momentum, expanding enterprise posture, and continuing consolidation around a unified productivity stack.",
+        "anthropic": "Premium reasoning brand with strong governance posture and persistent enterprise credibility.",
+        "google": "Best-positioned integrated competitor thanks to distribution, cloud, Android, and a wide model ladder.",
+        "meta": "Open-weights and distribution remain strengths, but monetization clarity still trails the top software stacks.",
+        "nvidia": "Still the picks-and-shovels winner as long as AI capex stays elevated.",
+        "tsmc": "Foundry concentration remains a systemic bottleneck and strategic chokepoint."
+      }
+    },
+    "retirement": {
+      "rateWatch": {
+        "fedFunds": 3.64,
+        "nextFomc": "2026-04-28",
+        "marketPath": "hold with hawkish bias",
+        "tBills3m": 3.63,
+        "tNotes2y": 3.96,
+        "tNotes10y": 4.42,
+        "iBonds": 4.03,
+        "hySavings": 4.6,
+        "cds1y": 4.1,
+        "tips10yReal": 2.08
+      },
+      "incomeEtfs": {
+        "schd": 3.6,
+        "vym": 2.9,
+        "jepi": 7.2,
+        "jepq": 9.1,
+        "xyld": 11.4,
+        "qyld": 11.8,
+        "ryld": 13.2
+      },
+      "investorBehavior": [
+        "Retirees and near-retirees still have a real alternative to chasing equity income because cash and short-duration paper are no longer trivial-yield assets.",
+        "The jump in 10-year yields improves future bond income but hurts existing duration-heavy portfolios in the short run.",
+        "Covered-call ETF buyers continue to reach for distribution, but many are still underestimating equity drawdown risk embedded in the payout.",
+        "Three-bucket frameworks — cash, intermediate safety, and growth — remain the sanest way to navigate this tape."
+      ],
+      "planningPoints": [
+        "With 3-month bills around 3.6% and top HYSAs around 4.6%, pure cash remains competitive for emergency and near-term spending reserves.",
+        "A 10-year Treasury above 4.4% means duration is finally paying something again, but only buy it if you can tolerate mark-to-market volatility.",
+        "Series I Bonds around 4.03% remain useful for inflation-linked safe money, especially for conservative households still under annual purchase limits.",
+        "For taxable investors, municipal-bond math deserves a fresh look once equivalent after-tax yields are compared honestly against CDs and Treasuries."
+      ],
+      "actionItem": "If you're 60+ and still keeping too much idle cash in a near-zero legacy bank account, fix that first. Moving reserve cash to a competitive HYSA or laddering short bills is the easiest low-risk yield upgrade available right now."
+    },
+    "health": {
+      "heartSignal": {
+        "finding": "The most dependable heart-health signal for older adults remains boring and powerful: consistent aerobic conditioning that improves resting heart rate, blood-pressure control, and vascular function beats nearly every supplement discussion.",
+        "source": "Cardiology consensus and recent sauna/vascular literature synthesis"
+      },
+      "supplements": [
+        {
+          "name": "Omega-3 (EPA+DHA)",
+          "dose": "2-4g/day combined EPA+DHA with clinician input if on anticoagulants",
+          "evidence": "Still one of the strongest evidence-backed options for patients with elevated triglycerides or established cardiovascular risk; more convincing than most longevity supplements.",
+          "tier": "strong"
+        },
+        {
+          "name": "Creatine Monohydrate",
+          "dose": "3-5g/day",
+          "evidence": "Good support for preserving strength and lean mass with emerging upside for cognition in older adults, especially when paired with resistance training.",
+          "tier": "strong"
+        },
+        {
+          "name": "Magnesium Glycinate",
+          "dose": "200-400mg elemental magnesium, often in the evening",
+          "evidence": "Useful mainly where deficiency, poor sleep, or blood-pressure issues are in play; not magic, but often practical.",
+          "tier": "emerging"
+        }
+      ],
+      "redLight": {
+        "protocol": "Use a reputable red/NIR device at 660nm plus near-infrared, 10-20 minutes per area, several times weekly; avoid overpromising systemic effects.",
+        "researchNote": "Photobiomodulation still looks interesting, but the evidence base is much thinner than for exercise, sleep, or blood-pressure control. Treat it as optional, not foundational."
+      },
+      "sauna": {
+        "protocol": "Traditional sauna 15-20 minutes, 3-4x/week if tolerated, hydrate well, stop early for dizziness, and get medical clearance if you have unstable cardiovascular disease.",
+        "finding": "Recent heart-failure commentary and broader Finnish cohort evidence keep sauna in the 'promising adjunct' bucket for vascular and cardiometabolic health, but it is still not a replacement for exercise or medication."
+      },
+      "studyOfWeek": {
+        "title": "Sauna Therapy in HFpEF: More than Just Heat?",
+        "journal": "European Journal of Heart Failure, published March 26, 2026",
+        "finding": "The paper reinforces growing interest in thermal therapy as an adjunct for cardiovascular function, especially around vascular and hemodynamic effects, while stopping short of making it a frontline standard of care.",
+        "relevance": "Useful reminder that heat exposure may have legitimate cardiovascular value, but the evidence quality still trails established interventions."
+      },
+      "practitionerTake": "For most adults over 60, the stack is still simple: walk more, lift something a few times a week, keep blood pressure under control, prioritize sleep, and use supplements only to support those basics. Sauna can help. Red light might help. Neither outranks cardio, strength work, or medication adherence."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "date": "YYYY-MM-DD",
+  "weekday": "Monday",
+  "generatedAt": "ISO-8601",
+  "confidence": "high",
+  "sourcesCount": 0,
+  "sections": {
+    "marketHeadlines": [
+      { "headline": "", "source": "Bloomberg", "whyItMatters": "" }
+    ],
+    "bitcoin": {
+      "price": 0,
+      "change24h": 0,
+      "dominance": 0,
+      "marketCap": "",
+      "fearGreed": { "value": 0, "label": "" },
+      "etfFlows": [{ "ticker": "IBIT", "issuer": "BlackRock", "flowM": 0 }],
+      "fundingSignal": "neutral",
+      "onChain": {
+        "lthTrend": "accumulating",
+        "exchangeFlow": "outflow",
+        "realizedPriceVsSpot": "below"
+      },
+      "headlines": []
+    },
+    "strategy": {
+      "mstr": { "price": 0, "change24h": 0, "navPremium": 0 },
+      "strc": { "price": 0, "change24h": 0 },
+      "strd": { "price": 0, "change24h": 0, "yield": 0, "compBondYield": 0 },
+      "strk": { "price": 0, "change24h": 0, "yield": 0, "compBondYield": 0 },
+      "strf": { "price": 0, "change24h": 0, "yield": 0, "compBondYield": 0 },
+      "btcHoldings": "",
+      "news": []
+    },
+    "institutional": {
+      "blackrock": "",
+      "fidelity": "",
+      "tradfi": "",
+      "regulatoryRadar": "",
+      "sovereign": ""
+    },
+    "creatorIntel": {
+      "sentimentReading": "Neutral",
+      "sentimentNote": "",
+      "videos": [
+        { "title": "", "creator": "", "url": "", "published": "", "summary": "", "whyItMatters": "" }
+      ]
+    },
+    "aiRace": {
+      "weeklyMoves": [{ "headline": "", "company": "", "whyItMatters": "" }],
+      "deepDiveCompany": "",
+      "deepDiveSummary": "",
+      "snapshot": {
+        "openai": "", "anthropic": "", "google": "",
+        "meta": "", "xai": "", "nvidia": "", "tsmc": ""
+      }
+    },
+    "retirement": {
+      "rateWatch": {
+        "fedFunds": 0, "nextFomc": "", "marketPath": "neutral",
+        "tBills3m": 0, "tNotes2y": 0, "tNotes10y": 0,
+        "iBonds": 0, "hySavings": 0, "cds1y": 0, "tips10yReal": 0
+      },
+      "incomeEtfs": {
+        "schd": 0, "vym": 0, "jepi": 0, "jepq": 0,
+        "xyld": 0, "qyld": 0, "ryld": 0
+      },
+      "investorBehavior": [],
+      "planningPoints": [],
+      "actionItem": ""
+    },
+    "health": {
+      "heartSignal": { "finding": "", "source": "" },
+      "supplements": [
+        { "name": "", "dose": "", "evidence": "", "tier": "emerging" }
+      ],
+      "redLight": { "protocol": "", "researchNote": "" },
+      "sauna": { "protocol": "", "finding": "" },
+      "studyOfWeek": { "title": "", "journal": "", "finding": "", "relevance": "" },
+      "practitionerTake": ""
+    }
+  }
+}

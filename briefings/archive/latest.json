@@ -1,0 +1,273 @@
+{
+  "date": "2026-03-31",
+  "weekday": "Tuesday",
+  "generatedAt": "2026-03-31T14:00:00Z",
+  "confidence": "medium",
+  "sourcesCount": 24,
+  "sections": {
+    "marketHeadlines": [
+      {
+        "headline": "The dollar headed for its biggest monthly gain since July as traders repriced for a longer period of restrictive policy.",
+        "source": "Reuters",
+        "whyItMatters": "A firmer dollar and tighter financial conditions are still the cleanest explanation for pressure across liquidity-sensitive assets."
+      },
+      {
+        "headline": "European shares bounced on de-escalation hopes even as oil stayed elevated and cross-asset trading remained headline-driven.",
+        "source": "Reuters",
+        "whyItMatters": "The rebound looks tactical rather than durable, which keeps broader risk appetite fragile."
+      },
+      {
+        "headline": "Spot bitcoin ETFs returned to net inflows with $69.44 million on March 30 after the prior week's aggregate outflows.",
+        "source": "SoSoValue",
+        "whyItMatters": "Institutional demand is still present, but not yet strong enough to fully overpower the macro tape."
+      }
+    ],
+    "bitcoin": {
+      "price": 66965,
+      "change24h": -1.02,
+      "dominance": 56.1,
+      "marketCap": "$1.34T",
+      "fearGreed": {
+        "value": 11,
+        "label": "Extreme Fear"
+      },
+      "etfFlows": [
+        {
+          "ticker": "ARKB",
+          "issuer": "ARK 21Shares",
+          "flowM": 33.03
+        },
+        {
+          "ticker": "FBTC",
+          "issuer": "Fidelity",
+          "flowM": 28.89
+        },
+        {
+          "ticker": "IBIT",
+          "issuer": "BlackRock",
+          "flowM": 7.52
+        },
+        {
+          "ticker": "BITB",
+          "issuer": "Bitwise",
+          "flowM": 0
+        }
+      ],
+      "fundingSignal": "neutral",
+      "onChain": {
+        "lthTrend": "accumulating",
+        "exchangeFlow": "outflow",
+        "realizedPriceVsSpot": "below"
+      },
+      "headlines": [
+        "ETF flows turned positive on 2026-03-30 with $69.44M of net inflows after the prior week's aggregate outflows.",
+        "Spot remains about 15.06% above broad-market realized price, but is still slightly below or near short-term holder cost basis.",
+        "Exchange balances remain near multi-year lows, consistent with a constructive supply backdrop despite the hostile macro tape."
+      ]
+    },
+    "strategy": {
+      "mstr": {
+        "price": 122.45,
+        "change24h": 0.83,
+        "navPremium": 56.3
+      },
+      "strc": {
+        "price": 100,
+        "change24h": 0.04
+      },
+      "strd": {
+        "price": 73.55,
+        "change24h": 0.53,
+        "yield": 13.6,
+        "compBondYield": 4.2
+      },
+      "strk": {
+        "price": 70.4,
+        "change24h": 1.72,
+        "yield": 11.36,
+        "compBondYield": 4.2
+      },
+      "strf": {
+        "price": 95.7,
+        "change24h": 0.84,
+        "yield": 10.45,
+        "compBondYield": 4.2
+      },
+      "btcHoldings": "528,185 BTC",
+      "news": [
+        "MSTR still carries an estimated 56.3% premium to BTC NAV.",
+        "Strategy's income securities continue to trade at large spreads over the 4.2% benchmark, with STRD the widest at 9.4 percentage points.",
+        "No newer BTC purchase was identified in the pulse-stage sourcing beyond the holdings figure in the input artifact."
+      ]
+    },
+    "institutional": {
+      "blackrock": "BlackRock's IBIT posted a $7.52M inflow on March 30, which kept the franchise in positive territory but did not signal a decisive institutional risk-on turn.",
+      "fidelity": "Fidelity's FBTC drew $28.89M on March 30, making it one of the day's stronger ETF bids and a meaningful share of total spot ETF inflows.",
+      "tradfi": "Major institutions are still trading a macro-led tape shaped by a stronger dollar, elevated oil, and restrictive-rate expectations rather than a crypto-specific catalyst.",
+      "regulatoryRadar": "The March 17 SEC/CFTC joint interpretation created a more formal five-part crypto asset taxonomy, improving classification clarity around digital commodities and adjacent market structure.",
+      "sovereign": "No material sovereign or nation-state bitcoin development stood out in the supplied research for this run."
+    },
+    "creatorIntel": {
+      "sentimentReading": "Cautiously Bullish",
+      "sentimentNote": "The dominant creator tone remains structurally bullish on Bitcoin, but with more emphasis on surviving macro stress and consolidation before the next leg up.",
+      "videos": [
+        {
+          "title": "Michael Saylor: \"We Are In A Crypto Winter\" - Here's What Comes Next [2026 Prediction]",
+          "creator": "The Bitcoin Revolution",
+          "url": "https://www.youtube.com/watch?v=cX9YTedFCoo",
+          "published": "2026-03-30",
+          "summary": "Frames the current tape as a mild crypto winter rather than a cycle-ending collapse. Contrasts Saylor's still-buying stance with more cautious macro voices and argues the strategic Bitcoin case remains intact despite near-term volatility.",
+          "whyItMatters": "It captures the market's current high-engagement stance: medium-term bullish, short-term careful."
+        },
+        {
+          "title": "Michael Saylor Just Revealed The Next Phase of Bitcoin Nobody Saw Coming!",
+          "creator": "Unnamed commentary channel surfaced via search",
+          "url": "https://www.youtube.com/watch?v=TIX4Ik6pnNY",
+          "published": "2026-03-30",
+          "summary": "Centers on Saylor's digital-credit framing and the idea that Bitcoin becomes pristine collateral for a new credit layer. Ties Strategy's capital-markets machine to a larger institutional demand flywheel.",
+          "whyItMatters": "It reinforces the narrative that Bitcoin is being pitched as infrastructure, not just an asset."
+        },
+        {
+          "title": "Why Bitcoin Could Hit All-Time Highs Again in 2026",
+          "creator": "Anthony Pompliano",
+          "url": "https://www.youtube.com/watch?v=TvR7W-Q7J1M",
+          "published": "2026-03-28",
+          "summary": "Links Bitcoin upside to inflation, commodities, and liquidity regime change. Presents macro stress as a reason capital could rotate toward hard assets, including Bitcoin.",
+          "whyItMatters": "It connects Bitcoin demand directly to the same macro instability hitting other risk assets."
+        },
+        {
+          "title": "Michael Saylor: Speak with Candor or Stay Broke in Bitcoin | 21 Ways to Wealth #15 Communication",
+          "creator": "Michael Saylor / clipped repost surfaced via search",
+          "url": "https://www.youtube.com/watch?v=CMs8j1mX0C8",
+          "published": "2026-03-30",
+          "summary": "Less a price call than an operating doctrine. Argues that trust, transparency, and communication are prerequisites for attracting capital to Bitcoin treasury strategies.",
+          "whyItMatters": "It shows creator attention broadening from price targets to institutional operating playbooks."
+        },
+        {
+          "title": "if MICHAEL SAYLOR is right… BITCOIN EXPLODES ( $44B TRIGGER )",
+          "creator": "Macro/Bitcoin commentary channel surfaced via search",
+          "url": "https://www.youtube.com/watch?v=Ic-y8-KREgc",
+          "published": "2026-03-26",
+          "summary": "Focuses on Strategy's reported $44.1B capital-raising plan and its possible effect on Bitcoin's free float. The thesis is that corporate-scale accumulation can drive reflexive repricing higher.",
+          "whyItMatters": "It highlights how concentrated current Bitcoin discourse is on Strategy's financing capacity."
+        }
+      ]
+    },
+    "aiRace": {
+      "weeklyMoves": [
+        {
+          "headline": "OpenAI's U.S. ChatGPT ads pilot reportedly crossed a $100M annualized revenue run rate within six weeks.",
+          "company": "OpenAI",
+          "whyItMatters": "That strengthens monetization and subsidizes continued model and product expansion."
+        },
+        {
+          "headline": "Google launched Gemini 3.1 Flash Live preview and paired it with TurboQuant memory-efficiency research.",
+          "company": "Google DeepMind",
+          "whyItMatters": "Google improved both the user layer and infra economics at the same time."
+        },
+        {
+          "headline": "Meta deepened its infrastructure push with new AI data-center commitments and a silicon partnership with Arm.",
+          "company": "Meta",
+          "whyItMatters": "It supports Meta's strategy of compressing the stack from models to infrastructure."
+        },
+        {
+          "headline": "Arm moved toward selling its own AI-oriented data-center CPU with major partners tied to the launch.",
+          "company": "Arm / AI hardware",
+          "whyItMatters": "The hardware field is broadening beyond a single-vendor narrative."
+        },
+        {
+          "headline": "Perplexity pushed its enterprise agent product deeper into the workplace with multi-model orchestration and hundreds of integrations.",
+          "company": "Perplexity",
+          "whyItMatters": "That improves its position as a workflow and orchestration layer rather than just an answer engine."
+        }
+      ],
+      "deepDiveCompany": "Google",
+      "deepDiveSummary": "Google looks unusually defensible because it can combine frontier research, TPU-backed infrastructure, consumer distribution, and enterprise tooling in one stack. The moat is less about Gemini alone than the ability to ship improvements through Search, Workspace, Android, Cloud, and serving economics at once.",
+      "snapshot": {
+        "openai": "Still the default enterprise shortlist because of brand, ecosystem, and product breadth.",
+        "anthropic": "Strong in enterprise and coding, though the current narrative is more defensive than expansionary.",
+        "google": "One of the strongest full-stack positions across models, infrastructure, and distribution.",
+        "meta": "Open-weight pressure remains meaningful, backed by distribution and infrastructure scale.",
+        "xai": "Real-time information remains the moat, but enterprise adoption still appears earlier-stage than top rivals.",
+        "nvidia": "Still the center of gravity in AI compute thanks to ecosystem lock-in and system-level packaging.",
+        "tsmc": "Advanced packaging and leading-edge manufacturing capacity keep it structurally indispensable."
+      }
+    },
+    "retirement": {
+      "rateWatch": {
+        "fedFunds": 4.33,
+        "nextFomc": "2026-05-05/2026-05-06",
+        "marketPath": "neutral to mildly hawkish",
+        "tBills3m": null,
+        "tNotes2y": 3.91,
+        "tNotes10y": 4.43,
+        "iBonds": 4.03,
+        "hySavings": null,
+        "cds1y": null,
+        "tips10yReal": 1.92
+      },
+      "incomeEtfs": {
+        "schd": 3.4,
+        "vym": 2.4,
+        "jepi": 8,
+        "jepq": 9.5,
+        "xyld": 12,
+        "qyld": 12,
+        "ryld": 12
+      },
+      "investorBehavior": [
+        "Retirement-oriented investors are still leaning into short-duration safety because Treasury and cash yields remain genuinely competitive with equity income.",
+        "Rebalancing chatter centers on trimming stock winners selectively rather than making dramatic risk-off moves.",
+        "Sequence-of-returns risk is back in focus because higher bond yields now offer a viable spending-reserve alternative to selling equities into weakness.",
+        "The practical debate is how much cash-like duration near-retirees should lock in while rates remain attractive."
+      ],
+      "planningPoints": [
+        "Social Security timing discussions still focus on the tradeoff between delayed-claiming math and reducing portfolio drawdown pressure by claiming earlier.",
+        "Partial Roth conversions before RMD age remain one of the cleaner levers for early tax-bracket management.",
+        "SECURE Act 2.0 planning continues to emphasize withdrawal sequencing across RMDs, IRMAA thresholds, and surviving-spouse tax risk."
+      ],
+      "actionItem": "If retirement is within five years and your cash reserve is thin, price out a 3- to 12-month Treasury ladder this week. With 2-year Treasuries near 3.91%, 10-year yields around 4.43%, and I Bonds at 4.03%, a dedicated spending buffer is no longer expensive to build."
+    },
+    "health": {
+      "heartSignal": {
+        "finding": "A University of Eastern Finland analysis highlighted that sauna use 4-7 times per week was associated with materially lower cardiovascular mortality among adults aged 50+, with the signal extending to women as well as men.",
+        "source": "University of Eastern Finland / BMC Medicine summary"
+      },
+      "supplements": [
+        {
+          "name": "Omega-3 (EPA/DHA)",
+          "dose": "~1-2 g/day combined EPA+DHA, depending on diet and triglyceride goals",
+          "evidence": "Best evidence remains for triglyceride lowering and selective cardiovascular benefit in specific higher-risk populations; blanket longevity claims are weaker.",
+          "tier": "strong"
+        },
+        {
+          "name": "Creatine",
+          "dose": "3-5 g/day",
+          "evidence": "Strong support for muscle performance and decent support for preserving strength and lean mass with aging; longevity benefit is indirect but plausible via musculoskeletal function.",
+          "tier": "strong"
+        },
+        {
+          "name": "CoQ10",
+          "dose": "100-200 mg/day with fat-containing meals",
+          "evidence": "Most useful where statin symptoms, heart failure adjunctive support, or mitochondrial symptom relief are the real target; longevity evidence is weaker than marketing implies.",
+          "tier": "emerging"
+        }
+      ],
+      "redLight": {
+        "protocol": "Use red/near-infrared wavelengths roughly in the 630-850 nm range, with sessions around 10-20 minutes, 3-5 times per week, at the manufacturer-recommended distance.",
+        "researchNote": "Evidence is most credible for skin quality, wound healing, and some pain outcomes; longevity claims remain ahead of the data."
+      },
+      "sauna": {
+        "protocol": "A practical starting range is 15-20 minutes at roughly 70-90°C, 3-4 times per week, progressing only as tolerated.",
+        "finding": "The strongest case remains observational cardiovascular and mortality data from Finnish cohorts, reinforced this week by emphasis that the association extends to women as well as men aged 50+."
+      },
+      "studyOfWeek": {
+        "title": "Sauna bathing frequency and cardiovascular mortality in adults aged 50+",
+        "journal": "BMC Medicine",
+        "finding": "More frequent sauna use was associated with lower fatal cardiovascular event rates over long follow-up, with a dose-responsive pattern across weekly usage frequency.",
+        "relevance": "For a 60+ reader, it supports sauna as a plausible lifestyle adjunct for cardiometabolic health, not a substitute for standard care."
+      },
+      "practitionerTake": "A longevity-focused physician would likely call this week's health mix useful but not exotic: regular heat exposure looks promising, red-light therapy appears narrower than the wellness market claims, and the best supplement support still clusters around basics like omega-3 where indicated and creatine. None of it overrides the boring winners: blood pressure control, exercise capacity, sleep, muscle retention, vaccination, and medication review."
+    }
+  }
+}

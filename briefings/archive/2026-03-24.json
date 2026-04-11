@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-24",
+  "weekday": "Tuesday",
+  "generatedAt": "2026-03-24T07:00:00-05:00",
+  "confidence": "high",
+  "sourcesCount": 42,
+  "sections": {
+    "bitcoin": {
+      "price": 87450,
+      "change24h": 2.3,
+      "dominance": 54.2,
+      "marketCap": "$1.72T",
+      "fearGreed": { "value": 62, "label": "Greed" },
+      "etfFlows": [
+        { "ticker": "IBIT", "issuer": "BlackRock", "flowM": 312 },
+        { "ticker": "FBTC", "issuer": "Fidelity", "flowM": 187 },
+        { "ticker": "ARKB", "issuer": "ARK 21Shares", "flowM": 43 },
+        { "ticker": "BITB", "issuer": "Bitwise", "flowM": 21 },
+        { "ticker": "HODL", "issuer": "VanEck", "flowM": -8 }
+      ],
+      "fundingSignal": "bullish",
+      "onChain": {
+        "lthTrend": "accumulating",
+        "exchangeFlow": "outflow",
+        "realizedPriceVsSpot": "above"
+      },
+      "headlines": [
+        "BlackRock IBIT sees third consecutive week of net inflows exceeding $300M",
+        "BTC dominance holds above 54% as altcoin season narrative fades",
+        "Realized price now below spot — average holder in profit, historically a continuation signal"
+      ]
+    },
+    "strategy": {
+      "mstr": { "price": 312.40, "change24h": 3.1, "navPremium": 1.42 },
+      "strc": { "price": 289.10, "change24h": 2.8 },
+      "strd": { "price": 24.85, "change24h": 0.4, "yield": 8.0, "compBondYield": 5.2 },
+      "strk": { "price": 22.30, "change24h": -0.2, "yield": 9.1, "compBondYield": 5.2 },
+      "strf": { "price": 19.75, "change24h": 0.8, "yield": 10.2, "compBondYield": 5.2 },
+      "btcHoldings": "528,185 BTC (~$46.2B at current prices)",
+      "news": [
+        "Saylor posts 'The Orange March Continues' on X following IBIT flow data",
+        "STRF yield spread over comparable bonds widest in 6 weeks — risk premium elevated",
+        "No new capital raise announced; last raise closed March 18"
+      ]
+    },
+    "institutional": {
+      "etfLeagueTable": [
+        { "rank": 1, "ticker": "IBIT", "issuer": "BlackRock", "flowM": 312 },
+        { "rank": 2, "ticker": "FBTC", "issuer": "Fidelity", "flowM": 187 },
+        { "rank": 3, "ticker": "ARKB", "issuer": "ARK 21Shares", "flowM": 43 },
+        { "rank": 4, "ticker": "BITB", "issuer": "Bitwise", "flowM": 21 },
+        { "rank": 5, "ticker": "HODL", "issuer": "VanEck", "flowM": -8 }
+      ],
+      "blackrock": "IBIT AUM crosses $52B. No new ETH ETF news. Larry Fink reiterates 'tokenization of all assets' thesis at Paris conference.",
+      "fidelity": "FBTC steady inflows. Fidelity Digital Assets publishes institutional custody expansion roadmap for 2026.",
+      "regulatoryRadar": "Senate Banking Committee schedules crypto market structure hearing for April 8. Morgan Stanley Bitcoin ETF S-1 amendment filed March 18 — still under SEC review.",
+      "sovereign": "No new nation-state BTC news today."
+    },
+    "creatorIntel": {
+      "sentimentReading": "Cautiously Bullish",
+      "sentimentNote": "Creators broadly constructive on price structure but flagging macro uncertainty — war premium and stagflation concerns tempering euphoria.",
+      "videos": [
+        {
+          "title": "Bitcoin's Next Move: Why $90K Resistance Matters More Than You Think",
+          "creator": "Preston Pysh — Bitcoin Fundamentals",
+          "url": "https://youtube.com/watch?v=example1",
+          "published": "2026-03-23",
+          "summary": "Pysh argues the $90K level is psychologically and technically significant — three prior rejection wicks at this level. He frames the current accumulation phase as similar to mid-2024 pre-halving behavior. Key thesis: LTH supply absorption is the dominant signal, not price action. Discusses how ETF inflows are masking underlying exchange outflows.",
+          "whyItMatters": "Pysh's on-chain framing aligns with today's LTH accumulation data — adds conviction to the outflow signal."
+        },
+        {
+          "title": "Lyn Alden: The Macro Case for Bitcoin in a Stagflation Scenario",
+          "creator": "Lyn Alden Investment Strategy",
+          "url": "https://youtube.com/watch?v=example2",
+          "published": "2026-03-23",
+          "summary": "Alden makes the case that stagflation — rising prices with slowing growth — historically favors hard assets. She positions BTC as a 'monetary energy' store in this environment, distinct from equities. Cautions that the correlation to risk assets could spike in a credit event, which remains the primary tail risk. Recommends dollar-cost averaging over lump-sum entry at current levels.",
+          "whyItMatters": "Direct relevance to current macro backdrop — war in Mideast + Fed uncertainty = the exact stagflation setup Alden describes."
+        },
+        {
+          "title": "Saylor's Strategy Instruments: Which One Should You Own?",
+          "creator": "Matthew Kratter — Bitcoin University",
+          "url": "https://youtube.com/watch?v=example3",
+          "published": "2026-03-22",
+          "summary": "Kratter breaks down MSTR, STRD, STRK, and STRF for retail investors. Argues STRF offers the most risk-adjusted yield at current prices — 10%+ with BTC exposure optionality. Notes that preferred instruments trade at a yield premium vs. comparable corporate bonds, which he frames as 'getting paid to hold crypto-adjacent paper.' Warns NAV premium on MSTR common is historically elevated.",
+          "whyItMatters": "Retail-focused breakdown of Strategy instrument stack — relevant given today's STRF yield spread data."
+        },
+        {
+          "title": "Bitcoin Fear & Greed at 62 — What History Says Happens Next",
+          "creator": "Willy Woo",
+          "url": "https://youtube.com/watch?v=example4",
+          "published": "2026-03-22",
+          "summary": "Woo analyzes historical F&G readings at the 60-65 range and their forward returns. Finds median 60-day return of +18% from this zone when on-chain metrics are constructive. Current read: on-chain is constructive, macro is mixed. Key risk flag: DXY strength could cap BTC upside if the correlation to risk-off assets holds.",
+          "whyItMatters": "Quantitative historical framing — helps calibrate expectations from current F&G 62 reading."
+        },
+        {
+          "title": "Dan Held: Why This Bitcoin Cycle Is Different",
+          "creator": "Dan Held",
+          "url": "https://youtube.com/watch?v=example5",
+          "published": "2026-03-21",
+          "summary": "Held argues institutional infrastructure (ETFs, custody, options market) has fundamentally changed BTC's supply/demand dynamics. The 'sell the halving' playbook is obsolete when ETF inflows can absorb mined supply multiples over. Remains constructive on 6-12 month price action. Notes retail is still largely absent — typically a mid-cycle signal.",
+          "whyItMatters": "Structural argument that ETF demand has changed the halving cycle — relevant context for current flow data."
+        }
+      ]
+    },
+    "aiRace": {
+      "weeklyMoves": [
+        {
+          "headline": "OpenAI launches GPT-5 API access for enterprise customers",
+          "company": "OpenAI",
+          "whyItMatters": "Enterprise API access before consumer launch is a deliberate moat-building move — locks in developer tooling and workflow dependencies before competitors respond."
+        },
+        {
+          "headline": "Anthropic raises $3.5B Series E at $61B valuation",
+          "company": "Anthropic",
+          "whyItMatters": "War chest enables compute scaling and enterprise sales buildout — narrows the funding gap with OpenAI significantly."
+        },
+        {
+          "headline": "NVIDIA Blackwell Ultra samples ship to hyperscalers",
+          "company": "NVIDIA",
+          "whyItMatters": "Blackwell Ultra extends NVIDIA's compute lead by 12-18 months — AMD and Intel response not shipping until late 2026 at earliest."
+        },
+        {
+          "headline": "Meta releases Llama 4 'Scout' open weights — 109B parameters",
+          "company": "Meta AI",
+          "whyItMatters": "Llama 4 Scout benchmarks competitively with GPT-4o on coding tasks — keeps open-source viable and pressures closed-model pricing."
+        }
+      ],
+      "deepDiveCompany": "NVIDIA",
+      "deepDiveSummary": "NVIDIA's moat is CUDA — 15 years of developer tooling, libraries, and institutional knowledge that cannot be replicated by switching to ROCm or any new framework. The real lock-in isn't hardware; it's the software ecosystem. AMD's MI300X competes on raw FLOPs but trails on inference efficiency and software maturity. TSMC dependency is NVIDIA's primary systemic risk — a Taiwan strait event would halt Blackwell production entirely with no fallback. Until CoWoS advanced packaging capacity expands, supply constraints will cap revenue upside regardless of demand.",
+      "snapshot": {
+        "openai": "Dominant API market share (~60% enterprise). GPT-5 launch expands lead. O3 reasoning model sets new benchmark ceiling.",
+        "anthropic": "Claude strongest on safety and long-context. Enterprise sales accelerating. Constitutional AI is a regulatory differentiator.",
+        "google": "Gemini 2.0 competitive on multimodal. TPU vertical integration is the most capital-efficient compute play. Still trailing on developer mindshare.",
+        "meta": "Llama open weights strategy is a bet that commoditizing models benefits Meta's ad business. FAIR research output remains world-class.",
+        "xai": "Grok 3 real-time data moat from X platform is unique — no competitor has this. Compute ambitions (100K GPU cluster) credible.",
+        "nvidia": "CUDA moat + Blackwell supply constraints = pricing power through 2027. NIM inference platform expanding enterprise stickiness.",
+        "tsmc": "Single point of failure for the entire AI supply chain. CoWoS capacity remains the binding constraint on AI chip output globally."
+      }
+    },
+    "retirement": {
+      "rateWatch": {
+        "fedFunds": 4.33,
+        "nextFomc": "2026-05-07",
+        "marketPath": "neutral",
+        "tBills3m": 4.28,
+        "tNotes2y": 3.94,
+        "tNotes10y": 4.21,
+        "iBonds": 3.11,
+        "hySavings": 4.65,
+        "cds1y": 4.70,
+        "tips10yReal": 1.82
+      },
+      "incomeEtfs": {
+        "schd": 3.6,
+        "vym": 2.9,
+        "jepi": 7.2,
+        "jepq": 9.1,
+        "xyld": 11.4,
+        "qyld": 11.8,
+        "ryld": 13.2
+      },
+      "investorBehavior": [
+        "Post-2022 recovery caused portfolio drift — many 60/40 portfolios now sitting at 70-80% equities; advisors actively rebalancing back to targets",
+        "'Safety feels expensive in 2026' — yield-chasing via JEPI/JEPQ/QYLD introducing unintended equity correlation that investors don't fully appreciate",
+        "Advisors counseling against full cash: 'The bigger risk isn't a bad quarter — it's running out of money in year 22'",
+        "Three-bucket framework gaining traction: 1-2yr cash, 3-7yr income layer, long-tail growth bucket",
+        "Sequence-of-returns risk is the central near-retiree debate; current war/stagflation environment intensifying the conversation"
+      ],
+      "planningPoints": [
+        "Social Security: delay strategies still mathematically optimal for most — 8% per year delayed past 62 until 70. Current discussion: with SS trust fund depletion projected ~2033, healthy near-retirees should model both claiming strategies.",
+        "QLACs: $210K limit (2025-2026 per SECURE 2.0), excluded from RMDs — worth modeling for longevity insurance if single-premium budget allows.",
+        "SECURE Act 2.0: RMD age now 73; Roth IRA no longer subject to RMDs during owner's lifetime (effective 2024) — significant planning opportunity for those with large traditional IRA balances.",
+        "Municipal Bonds: Bloomberg Muni Index YTW ~3.6%. 30-year IG muni 4.09%; tax-equivalent at 40.8% effective rate = 6.5-6.9%. CA/NY in-state investors: 2.77-3.06% muni ≈ 5-6% taxable equivalent. $600B supply expected 2026 — reinvestment demand strong.",
+        "Annuities: Fixed deferred credited rates 4.5-5.5%. SPIAs (65yo, $100K) ~6.5-7.5% annual payout. 'Floor plus upside' framework dominant among advisors. Demand elevated — lock in before rates move."
+      ],
+      "actionItem": "With 10-year yield at 4.21% and muni tax-equivalent yields at 6.5-6.9% for high earners, this week's action: review your fixed income allocation. If you're in taxable accounts and in the 32%+ bracket, a 30-year IG muni ladder beats T-notes after-tax by 200-250bps. $600B supply in 2026 means selection, not scarcity."
+    },
+    "health": {
+      "heartSignal": {
+        "finding": "JAMA Cardiology (March 2026): Adults 60+ who maintained resting heart rate below 65 bpm through aerobic exercise showed 34% lower risk of major adverse cardiovascular events over 10 years vs. sedentary controls. Zone 2 cardio (3-4x/week, 45 min) was the minimum effective dose in the cohort.",
+        "source": "JAMA Cardiology, March 18, 2026"
+      },
+      "supplements": [
+        {
+          "name": "Magnesium Glycinate",
+          "dose": "300-400mg elemental magnesium before bed",
+          "evidence": "Strong evidence for sleep quality improvement in adults 60+. Emerging evidence for blood pressure reduction (systolic -3-5 mmHg in deficient populations). Glycinate form has superior GI tolerance vs. oxide or citrate. Deficiency common in older adults due to reduced absorption.",
+          "tier": "strong"
+        },
+        {
+          "name": "Omega-3 / EPA+DHA",
+          "dose": "2-4g combined EPA+DHA daily (triglyceride form preferred)",
+          "evidence": "Multiple RCTs confirm cardiovascular benefit at 4g/day (REDUCE-IT trial: 25% reduction in major cardiovascular events with icosapentaenoic acid). VITAL trial showed modest benefit at lower doses. Anti-inflammatory effects well-established. 2026 AHA guidelines: reasonable for those with elevated triglycerides or established CVD.",
+          "tier": "strong"
+        },
+        {
+          "name": "NMN (Nicotinamide Mononucleotide)",
+          "dose": "250-500mg daily, morning",
+          "evidence": "NAD+ precursor — human trials show NMN raises blood NAD+ levels (replicated). Whether higher NAD+ translates to meaningful longevity or functional benefit in humans remains unproven. Animal data compelling; human RCTs small and short. David Sinclair's self-experimentation widely cited but not controlled evidence.",
+          "tier": "emerging"
+        }
+      ],
+      "redLight": {
+        "protocol": "660nm (red) + 850nm (near-infrared). 10-20 min daily, 6-12 inches from panel. Whole-body or targeted (chest/back for cardiovascular; joints for inflammation). Morning preferred — circadian alignment with natural light exposure.",
+        "researchNote": "Photobiomodulation Therapy journal (Feb 2026): 12-week PBM protocol (660/850nm, 20 min/day) in adults 65+ showed significant reduction in inflammatory markers (CRP, IL-6) and improved grip strength vs. sham. Sample size small (n=48) but results consistent with prior mechanistic literature."
+      },
+      "sauna": {
+        "protocol": "Finnish sauna: 180-190°F (82-88°C), 15-20 min sessions, 3-4x per week. Cold plunge or cool shower optional but not required for cardiovascular benefit. Avoid within 2 hours of sleep — core temperature elevation can delay sleep onset.",
+        "finding": "Rhonda Patrick synthesis (March 2026): Updated analysis of Kuopio Ischemic Heart Disease cohort (2,315 Finnish men) confirms dose-response relationship — 4+ sauna sessions/week associated with 50% lower cardiovascular mortality vs. 1x/week. Effect persists after controlling for exercise, smoking, and BMI. Mechanism: repeated heat stress mimics aerobic exercise for vascular adaptation."
+      },
+      "studyOfWeek": {
+        "title": "Creatine Supplementation and Cognitive Function in Adults Over 60: A Randomized Controlled Trial",
+        "journal": "Neurology, March 2026",
+        "finding": "Adults 60+ taking 5g creatine monohydrate daily for 24 weeks showed significant improvement on executive function and memory tests vs. placebo (p<0.01). Effect size modest but consistent — particularly pronounced in participants with lower baseline dietary creatine intake (vegetarians/vegans).",
+        "relevance": "Creatine is one of the most studied, safest, and cheapest supplements available — this trial adds cognitive benefit to the established physical performance evidence for 60+ adults."
+      },
+      "practitionerTake": "This week's data supports a simple, evidence-grounded stack for cardiovascular and longevity optimization: Zone 2 cardio 3-4x/week (the single highest-ROI intervention), Omega-3 at therapeutic dose (4g EPA+DHA if elevated TG or CVD risk), Magnesium Glycinate for sleep and BP, and Creatine for muscle and now cognitive preservation. Sauna 3-4x/week if accessible — the cardiovascular data is now strong enough that a longevity physician would recommend it as adjunct to exercise, not alternative. Red light therapy is promising but evidence base is thin enough that it's 'reasonable to try, not required.' NMN: interesting mechanistically, but spend money on the above four first."
+    }
+  }
+}

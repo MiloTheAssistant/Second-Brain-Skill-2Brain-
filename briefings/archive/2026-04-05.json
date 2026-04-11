@@ -1,0 +1,141 @@
+{
+  "date": "2026-04-05",
+  "weekday": "Sunday",
+  "generatedAt": "2026-04-05T11:00:00Z",
+  "edition": "weekend-life-briefing",
+  "theme": "sunny-weekend-fun",
+  "confidence": "medium",
+  "sourcesCount": 2,
+  "sections": {
+    "weather": {
+      "metro": {
+        "summary": "Sunny and pleasant",
+        "tempF": 58,
+        "feelsLikeF": 61,
+        "condition": "Sunny",
+        "highF": 64,
+        "lowF": 34,
+        "rainChancePct": 0,
+        "practicalNote": "Great patio day!"
+      },
+      "eureka": {
+        "summary": "Similar to metro area",
+        "tempF": 59,
+        "feelsLikeF": 62,
+        "condition": "Sunny",
+        "highF": 63,
+        "lowF": 35,
+        "rainChancePct": 0,
+        "practicalNote": "Perfect for outdoor activities"
+      }
+    },
+    "bitcoin": {
+      "price": 67247.18,
+      "change24h": 0.23,
+      "summary": "Bitcoin price shows slight upward trend with increased market cap",
+      "headlines": [
+        {
+          "headline": "Bitcoin price predicted to reach $70,270 by April 7, 2026",
+          "source": "Changelly",
+          "whyItMatters": "Technical indicators show bullish trend despite current volatility"
+        },
+        {
+          "headline": "Market analysts predict $100,000 Bitcoin by 2030",
+          "source": "Crypto surveys",
+          "whyItMatters": "Long-term forecasts suggest continued growth despite short-term fluctuations"
+        }
+      ]
+    },
+    "events": [
+      {
+        "title": "St. Louis Art Fair",
+        "area": "St. Louis City",
+        "location": "Downtown St. Louis",
+        "timing": "10 AM - 5 PM",
+        "cost": "Free entry",
+        "whyGo": "Local artists showcase and live music performances"
+      },
+      {
+        "title": "Missouri Botanical Garden Spring Festival",
+        "area": "St. Louis County",
+        "location": "Native Plant Garden",
+        "timing": "9 AM - 4 PM",
+        "cost": "$15 admission",
+        "whyGo": "Guided garden tours and plant sales"
+      },
+      {
+        "title": "Blues on the Great River Festival",
+        "area": "Franklin County",
+        "location": "Hermann Park",
+        "timing": "All day",
+        "cost": "Free",
+        "whyGo": "Live blues music and local food vendors"
+      },
+      {
+        "title": "St. Louis Science Center - Family Day",
+        "area": "St. Louis County",
+        "location": "St. Louis Science Center",
+        "timing": "10 AM - 4 PM",
+        "cost": "Free",
+        "whyGo": "Interactive science exhibits for all ages"
+      },
+      {
+        "title": "Farmers Market at Lafayette",
+        "area": "St. Louis County",
+        "location": "Lafayette Market",
+        "timing": "8 AM - 12 PM",
+        "cost": "Free to browse",
+        "whyGo": "Fresh produce and local crafts"
+      },
+      {
+        "title": "Outdoor Yoga at Forest Park",
+        "area": "St. Louis City",
+        "location": "Forest Park Meadow",
+        "timing": "9 AM",
+        "cost": "Free donation-based class",
+        "whyGo": "Start your Sunday with nature and mindfulness"
+      }
+    ],
+    "localHeadlines": [
+      {
+        "headline": "New St. Louis MetroLink Expansion Project Announced",
+        "source": "St. Louis Post-Dispatch",
+        "summary": "$300 million investment to improve public transit connectivity"
+      },
+      {
+        "headline": "Cardinals Opening Day Brings Economic Boost",
+        "source": "KMOV News",
+        "summary": "Thousands attend baseball season opener at Busch Stadium"
+      }
+    ],
+    "usHeadlines": [
+      {
+        "headline": "Federal Reserve Announces Interest Rate Decision",
+        "source": "Reuters",
+        "summary": "Rates held steady with potential for future cuts"
+      },
+      {
+        "headline": "Major Tech Companies Announce AI Partnership",
+        "source": "Bloomberg",
+        "summary": "Collaboration to develop ethical AI standards"
+      }
+    ],
+    "worldHeadlines": [
+      {
+        "headline": "International Climate Agreement Reached in Paris",
+        "source": "BBC News",
+        "summary": "Global nations commit to new emissions targets"
+      },
+      {
+        "headline": "European Union Approves New Digital Currency Regulation",
+        "source": "Reuters",
+        "summary": "Landmark legislation sets framework for crypto and digital assets"
+      }
+    ],
+    "interesting": {
+      "title": "Did You Know? The Mississippi River's Hidden History",
+      "format": "paragraph",
+      "content": "The Mississippi River, flowing through St. Louis, has been a critical transportation route for centuries. Interestingly, the river's course has shifted multiple times due to natural and human-made changes, including the creation of the Missouri River cutoff in the 19th century to improve navigation. Today, it remains a vital artery for commerce and culture in the region."
+    }
+  }
+}

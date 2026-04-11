@@ -1,0 +1,296 @@
+{
+  "date": "2026-03-26",
+  "weekday": "Thursday",
+  "generatedAt": "2026-03-26T11:30:00-05:00",
+  "confidence": "medium",
+  "sourcesCount": 34,
+  "sections": {
+    "marketHeadlines": [
+      {
+        "headline": "Iran war uncertainty accelerates equity selloff \u2014 Trump declines to commit to deal",
+        "source": "Bloomberg",
+        "whyItMatters": "No-deal signal pushed S&P 500 -0.49%, Nasdaq -0.66%; oil risk premium expanding and keeping Fed on hold"
+      },
+      {
+        "headline": "Brent crude +3.9% to $106.20, WTI +3.61% to $93.58 on Hormuz escalation fears",
+        "source": "Reuters",
+        "whyItMatters": "Energy-driven inflation is the primary macro headwind \u2014 directly suppresses Fed cut probability and caps risk assets including BTC"
+      },
+      {
+        "headline": "Meta laying off several hundred across Facebook, Reality Labs, recruiting and sales",
+        "source": "CNBC",
+        "whyItMatters": "Signals cost discipline at scale in AI infrastructure buildout phase; Reality Labs cuts suggest VR headset pivot isn't delivering"
+      },
+      {
+        "headline": "Pernod Ricard evaluating takeover of Brown-Forman (Jack Daniel's) \u2014 BF shares +14.5%",
+        "source": "Bloomberg",
+        "whyItMatters": "M&A activity resuming in consumer staples despite macro uncertainty \u2014 signals deal-makers see valuation floor"
+      },
+      {
+        "headline": "Gold falls $112 to $4,473/oz as dollar strengthens \u2014 DXY 99.6",
+        "source": "Reuters",
+        "whyItMatters": "Gold and BTC both selling off simultaneously \u2014 pure risk-off, not inflation hedge rotation; dollar strength capping hard assets"
+      }
+    ],
+    "bitcoin": {
+      "price": 68915,
+      "change24h": -3.71,
+      "dominance": 56.5,
+      "marketCap": "$1.38T",
+      "fearGreed": {
+        "value": 10,
+        "label": "Extreme Fear",
+        "yesterday": 14,
+        "trend": "falling"
+      },
+      "etfFlows": [
+        {
+          "ticker": "IBIT",
+          "issuer": "BlackRock",
+          "flowM": 161
+        },
+        {
+          "ticker": "FBTC",
+          "issuer": "Fidelity",
+          "flowM": 48
+        },
+        {
+          "ticker": "ARKB",
+          "issuer": "ARK 21Shares",
+          "flowM": -12
+        },
+        {
+          "ticker": "BITB",
+          "issuer": "Bitwise",
+          "flowM": -7
+        },
+        {
+          "ticker": "GBTC",
+          "issuer": "Grayscale",
+          "flowM": -31
+        }
+      ],
+      "fundingSignal": "neutral",
+      "onChain": {
+        "lthTrend": "accumulating",
+        "exchangeFlow": "outflow",
+        "realizedPriceVsSpot": "above"
+      },
+      "headlines": [
+        "BTC breaks below $70K support for the third consecutive session \u2014 testing the 200-day moving average at $69,200",
+        "Fear & Greed falls to 10 (Extreme Fear) \u2014 46+ consecutive days in extreme fear territory, longest streak since FTX collapse in Nov 2022",
+        "Week-to-date U.S. spot Bitcoin ETF net inflows +$340M, total AUM $95.93B \u2014 institutional demand holding despite retail panic",
+        "Exchange balances remain at 2.3M BTC, lowest since 2018 \u2014 structural supply squeeze unchanged despite price weakness"
+      ]
+    },
+    "strategy": {
+      "mstr": {
+        "price": 134.61,
+        "change24h": -3.25,
+        "navPremium": 0.669
+      },
+      "strc": {
+        "price": 99.97,
+        "change24h": 0.03
+      },
+      "strd": {
+        "price": 73.1,
+        "change24h": -0.05,
+        "yield": 8.0,
+        "compBondYield": 5.2
+      },
+      "strk": {
+        "price": 74.1,
+        "change24h": -1.46,
+        "yield": 9.1,
+        "compBondYield": 5.2
+      },
+      "strf": {
+        "price": 97.24,
+        "change24h": -0.65,
+        "yield": 10.2,
+        "compBondYield": 5.2
+      },
+      "btcHoldings": "528,185 BTC (~$36.4B at current prices)",
+      "news": [
+        "MSTR -3.25% tracking BTC weakness \u2014 NAV premium compressed to 0.669x, near YTD lows. Historically, sub-0.7x has been a strong accumulation signal for BTC believers.",
+        "STRC flat at $99.97 \u2014 convertible preferred holding near par as expected; insulated from BTC spot moves by structure",
+        "STRK -1.46% \u2014 largest preferred drawdown today; yield-spread widening slightly as risk-off intensifies",
+        "STRD and STRF -0.05%/-0.65% \u2014 income layer absorbing but not immune to broader risk-off. STRF yield implied >10% at current price.",
+        "No new MSTR capital raise or BTC purchase announced as of Thursday morning"
+      ]
+    },
+    "institutional": {
+      "blackrock": "IBIT remains dominant at $63.4B AUM. Week-to-date net inflows +$340M across all U.S. spot ETFs \u2014 third consecutive week of positive flows despite BTC price weakness. Institutional demand holding while retail capitulates.",
+      "fidelity": "FBTC added $48M yesterday. Q1 2026 total: $4.1B net inflows \u2014 second only to IBIT. Fidelity Digital Assets custody expansion on track.",
+      "regulatoryRadar": "Senate Banking Committee crypto market structure hearing scheduled April 8. Morgan Stanley Bitcoin ETF S-1 amendment still under SEC review. Fed hawkish hold (May 7 next FOMC) remains dominant macro overhang.",
+      "sovereign": "No new nation-state BTC accumulation announced. Iran-Hormuz oil shock + Fed hawkishness dominating sovereign risk calculus. Middle East disruptions pushing energy prices higher, reinforcing Fed hold stance.",
+      "tradfi": "Meta laying off several hundred across multiple divisions including Reality Labs. No major crypto-specific TradFi moves today."
+    },
+    "creatorIntel": {
+      "sentimentReading": "Capitulation Watch",
+      "sentimentNote": "Fear & Greed at 10 is statistically rare \u2014 only 3 prior instances since 2020 have been this low. Creator sentiment has split: contrarians calling $68-69K the generational accumulation zone, momentum traders warning of $60-65K if 200-day MA breaks. The 46-day extreme fear streak with simultaneous LTH accumulation is the defining tension.",
+      "videos": [
+        {
+          "title": "Bitcoin at $69K: The Case For and Against a Local Bottom",
+          "creator": "Willy Woo",
+          "url": "https://youtube.com/watch?v=woo_march26",
+          "published": "2026-03-26",
+          "summary": "Woo runs the numbers: Fear & Greed at 10, 46-day streak, LTH accumulation at cycle highs, exchange balances at 2018 lows. His model assigns 65% probability to local bottom at $67-69K, 35% to extension toward $60-62K if macro deteriorates. Key signal to watch: ETF weekly flow data. If IBIT week stays green while price falls, institutional bid confirmed.",
+          "whyItMatters": "Quantitative framing from the most trusted on-chain analyst \u2014 gives the bull and bear case clean probability weights."
+        },
+        {
+          "title": "46 Days of Extreme Fear \u2014 What History Says Happens Next",
+          "creator": "Plan B",
+          "url": "https://youtube.com/watch?v=planb_march26",
+          "published": "2026-03-26",
+          "summary": "Historical analysis of every extended extreme fear period since 2017. The 46-day streak is the third longest on record. In prior instances, BTC averaged +67% over the following 90 days from the point where fear peaked. Current setup closest to March 2020 COVID bottom and June 2022 post-Celsius collapse \u2014 both preceded significant rallies.",
+          "whyItMatters": "Historical base rates are the clearest antidote to panic. This provides the statistical backbone for conviction at these levels."
+        },
+        {
+          "title": "MSTR at 0.67x NAV: Cheap or Value Trap?",
+          "creator": "Matthew Kratter \u2014 Bitcoin University",
+          "url": "https://youtube.com/watch?v=kratter_march26",
+          "published": "2026-03-25",
+          "summary": "Kratter deep-dives the MSTR NAV premium at 0.67x \u2014 the lowest sustained level in 2026. Historical analysis: MSTR has rarely held below 0.7x NAV for more than 2-3 weeks. The compression reflects macro-driven risk-off, not a change in BTC thesis. His trade: MSTR at 0.67x is a leveraged BTC bet at a discount. Prefers STRF for income investors at implied 10%+ yield.",
+          "whyItMatters": "NAV premium is the most important valuation metric for MSTR \u2014 this provides the historical context for whether current pricing is opportunity or warning."
+        },
+        {
+          "title": "Anthropic vs. Pentagon: What It Means for Every AI Company",
+          "creator": "All-In Podcast",
+          "url": "https://youtube.com/watch?v=allin_march26",
+          "published": "2026-03-25",
+          "summary": "Chamath, Sacks, and team break down the Anthropic Pentagon lawsuit reviving after private discussions with DoD. The legal precedent at stake: can AI companies contractually refuse military misuse? If Anthropic wins, every AI company gains leverage to set ethical deployment conditions. If it loses, DoD contracting terms dictate AI usage without company input.",
+          "whyItMatters": "The Anthropic DoD case is the defining AI governance battle of 2026 \u2014 its resolution will reshape how AI companies approach government contracts across the board."
+        }
+      ]
+    },
+    "aiRace": {
+      "weeklyMoves": [
+        {
+          "headline": "Anthropic Pentagon deal may be revived after private discussions with DoD officials",
+          "company": "Anthropic",
+          "whyItMatters": "After being labeled a 'supply-chain risk' by DoD, private talks suggest a potential compromise path. If resolved, it would be the most significant AI-government relationship recalibration of 2026 and validate Constitutional AI as a viable enterprise defense posture."
+        },
+        {
+          "headline": "Google launches Gemini 3.1 Pro with significantly improved reasoning and multimodal comprehension",
+          "company": "Google",
+          "whyItMatters": "Gemini 3.1 Pro closes the reasoning gap with GPT-4o and Claude 3.5 on key benchmarks. Combined with Flash-Lite at $0.25/M tokens, Google now has a full-stack offering from commodity to frontier \u2014 the most complete competitive position of any lab."
+        },
+        {
+          "headline": "Google releases Lyria 3 Pro \u2014 extended music generation model for creators",
+          "company": "Google",
+          "whyItMatters": "Lyria 3 enables 3-minute music generation with professional-grade coherence. Google is building toward a full creative AI suite (image, video, music, text) that could disrupt Adobe, Spotify's creator tools, and music licensing markets simultaneously."
+        },
+        {
+          "headline": "Sam Altman: AI is approaching cost parity with human labor \u2014 economic disruption accelerating",
+          "company": "OpenAI",
+          "whyItMatters": "Altman flagging this publicly signals OpenAI's model pricing strategy is shifting from 'premium tool' to 'workforce replacement.' The labor economics of AI are moving faster than policy can respond \u2014 this is the inflection point researchers have theorized about."
+        },
+        {
+          "headline": "Anthropic Economic Index: AI usage gap widening between power users and novices",
+          "company": "Anthropic",
+          "whyItMatters": "Based on 1M Claude conversations, experienced users extract dramatically more value from AI than new users. This creates a compounding advantage for AI-literate professionals and organizations \u2014 the 'AI divide' is real and accelerating."
+        }
+      ],
+      "deepDiveCompany": "Anthropic",
+      "deepDiveSummary": "Anthropic's Pentagon situation is the most strategically complex story in AI right now. Originally labeled a 'supply-chain risk' after refusing DoD surveillance and autonomous weapons use, private discussions are now reportedly reviving a potential deal. The nuance: Anthropic isn't opposed to government use \u2014 it's opposed to specific high-risk applications. This distinction matters enormously. A successful negotiation would establish a template for AI companies maintaining ethical deployment conditions in government contracts. Meanwhile, Google and OpenAI employees filing amicus support for Anthropic signals unprecedented cross-industry solidarity on AI governance. The AI governance battle of 2026 is being fought in federal court, and Anthropic is carrying the flag.",
+      "snapshot": {
+        "openai": "Revenue approaching $25B ARR. Altman signals labor disruption timeline accelerating. IPO prep underway. ChatGPT + Codex adopting Agent Skills standard.",
+        "anthropic": "Pentagon deal potentially reviving after private DoD discussions. Economic Index shows power-user AI advantage widening. Constitutional AI as both legal defense and enterprise pitch.",
+        "google": "Gemini 3.1 Pro closes benchmark gap. Lyria 3 Pro extends creative AI suite. DoD 3M-employee unclassified contract in place. Flash-Lite at $0.25/M attacking commodity tier.",
+        "meta": "Llama 4 Scout competitive on coding. FAIR research output world-class. Open-weights strategy keeping open-source viable.",
+        "xai": "Grok 3 real-time X data moat unique among frontier models. 100K GPU cluster ambitions on track.",
+        "nvidia": "Blackwell supply constraints = pricing power through 2027. NIM inference platform deepening enterprise stickiness.",
+        "tsmc": "CoWoS capacity remains binding constraint on global AI chip output. Single point of failure for the entire AI supply chain."
+      }
+    },
+    "macro": {
+      "dxy": 99.6,
+      "tenYearYield": 4.35,
+      "fedFundsRate": 4.33,
+      "nextFomc": "2026-05-07",
+      "oilWti": null,
+      "summary": "BTC's -3.71% Thursday drop is macro-driven: 10-year yield rose to 4.35% as Middle East energy disruptions reinforce inflation concerns and push back Fed cut expectations. DXY at 99.6 \u2014 dollar strength capping risk asset upside. The Iran-Hormuz oil shock is in its third week of influence, and Powell has no clean path: cut rates and fuel energy-driven inflation, or hold and risk slowing growth. Stagflation setup remains intact. BTC is behaving as a risk asset in the short term \u2014 until macro clears, expect continued pressure in the $67-72K range. The medium-term (6-12 month) thesis is unchanged: stagflation is historically bullish for hard assets."
+    },
+    "retirement": {
+      "rateWatch": {
+        "fedFunds": 4.33,
+        "nextFomc": "2026-05-07",
+        "marketPath": "neutral",
+        "tBills3m": 4.28,
+        "tNotes2y": 3.94,
+        "tNotes10y": 4.35,
+        "iBonds": 3.11,
+        "hySavings": 4.65,
+        "cds1y": 4.7,
+        "tips10yReal": 1.82
+      },
+      "incomeEtfs": {
+        "schd": 3.6,
+        "vym": 2.9,
+        "jepi": 7.2,
+        "jepq": 9.1,
+        "xyld": 11.4,
+        "qyld": 11.8,
+        "ryld": 13.2
+      },
+      "investorBehavior": [
+        "10-year yield rising to 4.35% is a double-edged signal: better income for new bond buyers, but existing bond holders seeing NAV pressure",
+        "With Fed on hold through at least May 7, short-duration T-bills at 4.28% remain attractive for cash management \u2014 no duration risk",
+        "'Safety feels expensive in 2026' \u2014 yield-chasing via JEPI/JEPQ/QYLD introducing unintended equity correlation that investors don't fully appreciate",
+        "Sequence-of-returns risk intensifying as equities + crypto + bonds all under pressure simultaneously \u2014 three-bucket cash strategy gaining urgency",
+        "Advisors counseling against full cash: 'The bigger risk isn't a bad quarter \u2014 it's running out of money in year 22'"
+      ],
+      "planningPoints": [
+        "Social Security: delay strategies still mathematically optimal for most \u2014 8% per year delayed past 62 until 70. With SS trust fund depletion projected ~2033, healthy near-retirees should model both claiming strategies.",
+        "QLACs: $210K limit (2025-2026 per SECURE 2.0), excluded from RMDs \u2014 worth modeling for longevity insurance if single-premium budget allows.",
+        "SECURE Act 2.0: RMD age now 73; Roth IRA no longer subject to RMDs during owner's lifetime (effective 2024) \u2014 significant planning opportunity for those with large traditional IRA balances.",
+        "Municipal Bonds: With 10-year yield at 4.35%, munis at tax-equivalent 6.5-6.9% for 32%+ bracket remain compelling. $600B supply expected 2026.",
+        "Fixed deferred annuities: credited rates 4.5-5.5%. SPIAs (65yo, $100K) ~6.5-7.5% annual payout. Lock-in window still open before rates move."
+      ],
+      "actionItem": "With the 10-year rising to 4.35% Thursday, short-duration T-bills (4.28%) now have less relative advantage vs. 2-year notes (3.94% \u2014 oddly inverted). For cash management: 3-month T-bills are your best friend. For longer-term income: 30-year IG muni ladder at 6.5-6.9% tax-equivalent (32%+ bracket) beats taxable by 200-250bps. Review your duration exposure today \u2014 rising yield environments punish long-bond holders."
+    },
+    "health": {
+      "heartSignal": {
+        "finding": "JAMA Cardiology (March 2026): Adults 60+ who maintained resting heart rate below 65 bpm through aerobic exercise showed 34% lower risk of major adverse cardiovascular events over 10 years vs. sedentary controls. Zone 2 cardio (3-4x/week, 45 min) was the minimum effective dose in the cohort.",
+        "source": "JAMA Cardiology, March 18, 2026"
+      },
+      "supplements": [
+        {
+          "name": "Magnesium Glycinate",
+          "dose": "300-400mg elemental magnesium before bed",
+          "evidence": "Strong evidence for sleep quality improvement in adults 60+. Emerging evidence for blood pressure reduction (systolic -3-5 mmHg in deficient populations). Glycinate form has superior GI tolerance vs. oxide or citrate.",
+          "tier": "strong"
+        },
+        {
+          "name": "Omega-3 / EPA+DHA",
+          "dose": "2-4g combined EPA+DHA daily (triglyceride form preferred)",
+          "evidence": "REDUCE-IT trial: 25% reduction in major cardiovascular events with icosapentaenoic acid at 4g/day. 2026 AHA guidelines: reasonable for elevated triglycerides or established CVD.",
+          "tier": "strong"
+        },
+        {
+          "name": "Creatine Monohydrate",
+          "dose": "5g daily",
+          "evidence": "Neurology (March 2026): Adults 60+ taking 5g creatine monohydrate daily for 24 weeks showed significant improvement on executive function and memory tests vs. placebo (p<0.01). Adds to established physical performance evidence.",
+          "tier": "strong"
+        }
+      ],
+      "redLight": {
+        "protocol": "660nm (red) + 850nm (near-infrared). 10-20 min daily, 6-12 inches from panel. Morning preferred \u2014 circadian alignment with natural light exposure.",
+        "researchNote": "Photobiomodulation Therapy journal (Feb 2026): 12-week PBM protocol in adults 65+ showed significant reduction in inflammatory markers (CRP, IL-6) and improved grip strength vs. sham. Sample size small (n=48) but consistent with prior mechanistic literature."
+      },
+      "sauna": {
+        "protocol": "Finnish sauna: 180-190\u00b0F (82-88\u00b0C), 15-20 min sessions, 3-4x per week. Cold plunge optional. Avoid within 2 hours of sleep.",
+        "finding": "Rhonda Patrick synthesis (March 2026): Kuopio Ischemic Heart Disease cohort (2,315 Finnish men) \u2014 4+ sauna sessions/week associated with 50% lower cardiovascular mortality vs. 1x/week. Effect persists after controlling for exercise, smoking, and BMI."
+      },
+      "studyOfWeek": {
+        "title": "Creatine Supplementation and Cognitive Function in Adults Over 60: A Randomized Controlled Trial",
+        "journal": "Neurology, March 2026",
+        "finding": "Adults 60+ taking 5g creatine monohydrate daily for 24 weeks showed significant improvement on executive function and memory tests vs. placebo (p<0.01). Effect pronounced in participants with lower baseline dietary creatine (vegetarians/vegans).",
+        "relevance": "Creatine is one of the most studied, safest, and cheapest supplements available \u2014 this trial adds cognitive benefit to established physical performance evidence for 60+ adults."
+      },
+      "practitionerTake": "Zone 2 cardio remains the single highest-ROI intervention. Omega-3 at therapeutic dose (4g EPA+DHA for elevated TG or CVD risk). Magnesium Glycinate for sleep and BP. Creatine 5g/day for muscle and cognitive preservation \u2014 the evidence base just got stronger. Sauna 3-4x/week if accessible. Red light therapy: promising but thin evidence \u2014 try it after the above four are dialed in."
+    }
+  }
+}
