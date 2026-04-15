@@ -1,1 +1,9 @@
+# Live SQLite databases — managed by the OpenClaw memory-core plugin
 2brain.db
+data/*.sqlite
+data/*.sqlite-*
+data/*.db
+data/*.db-*
+
+# macOS
+.DS_Store
