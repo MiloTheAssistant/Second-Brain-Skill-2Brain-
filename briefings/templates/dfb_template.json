@@ -32,6 +32,18 @@
       "btcHoldings": "",
       "news": []
     },
+    "mag7": {
+      "stocks": [
+        { "ticker": "AAPL", "name": "Apple", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "MSFT", "name": "Microsoft", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "GOOGL", "name": "Alphabet", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "AMZN", "name": "Amazon", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "NVDA", "name": "NVIDIA", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "META", "name": "Meta", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" },
+        { "ticker": "TSLA", "name": "Tesla", "price": 0, "change24h": 0, "peRatio": 0, "marketCap": "", "headline": "" }
+      ],
+      "narrative": ""
+    },
     "institutional": {
       "blackrock": "",
       "fidelity": "",
@@ -53,6 +65,14 @@
       "snapshot": {
         "openai": "", "anthropic": "", "google": "",
         "meta": "", "xai": "", "nvidia": "", "tsmc": ""
+      },
+      "claudeTracker": {
+        "latestVersion": "",
+        "releaseDate": "",
+        "releaseNotes": "",
+        "clientUpdate": "",
+        "groundbreaking": "",
+        "sources": ["anthropic.com/news", "docs.anthropic.com/changelog", "x.com/AnthropicAI"]
       }
     },
     "retirement": {
