@@ -25,8 +25,7 @@ Last updated: <!-- AI: update this date whenever INDEX.md is modified -->
 <!-- Example: - [[openclaw-gotcha-framework]] — 6-layer GOTCHA operating framework -->
 
 ### Research & Knowledge
-- [[DFB-2026-04-17]] — Daily Financial Briefing for 2026-04-17
-- [[DFB-2026-04-16]] — Daily Financial Briefing for 2026-04-16
+- [[DFB-2026-04-20]] — Daily Financial Briefing for 2026-04-20
 
 ### Projects & Initiatives
 <!-- AI: add entries for active projects, goals, and initiatives -->
