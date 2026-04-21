@@ -2,7 +2,7 @@
 
 AI-maintained index of all wiki topics. Updated automatically when articles are created or modified.
 
-Last updated: <!-- AI: update this date whenever INDEX.md is modified -->
+Last updated: 2026-04-21
 
 ---
 
